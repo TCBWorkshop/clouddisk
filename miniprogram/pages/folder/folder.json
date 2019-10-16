@@ -1,0 +1,9 @@
+{
+  "usingComponents": {
+    "mp-dialog": "/weui-miniprogram/dialog/dialog",
+    "mp-slideview": "/weui-miniprogram/slideview/slideview",
+    "mp-form": "/weui-miniprogram/form/form",
+    "mp-toptips": "/weui-miniprogram/toptips/toptips"
+  },
+  "navigationBarTitleText": "文件夹列表"
+}

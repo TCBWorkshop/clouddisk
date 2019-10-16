@@ -1,0 +1,31 @@
+<view class="page-content">
+  <view class="list-content">
+    <block wx:for="{{folders}}" wx:key="id" wx:for-index="idx" wx:for-item="folders">
+    <navigator url="/pages/files/files?id={{idx}}">
+      <view class="weui-cells weui-cells_after-title">
+        <view class="weui-cell">
+            <view class="weui-cell__hd">
+                <image src="/images/files.svg" style="margin-right: 16px;vertical-align: middle;width:40px; height: 40px;"></image>
+            </view>
+            <view class="weui-cell__bd">{{folders.foldersName}}</view>
+            <view class="weui-cell__ft">{{folders.files.length}} 个</view>
+        </view>
+      </view>
+    </navigator>
+    </block>
+    <view style="clear: both"></view>
+  </view>
+  <view class='addbutton'>
+    <view class='add-item' bindtap="addfolders">
+      <image class='add-icon' src='/images/add.png'></image>
+    </view>      
+  </view>
+</view>
+<mp-dialog title="新建文件夹" show="{{dialogShow}}" bindbuttontap="formSubmit" buttons="{{buttons}}">
+    <view class='item-add'>
+      <view class='item-name'>
+        <input name="name" placeholder='请输入文件夹名' auto-focus value='{{inputValue}}' bindinput='keyInput'></input>
+      </view>
+  </view>
+</mp-dialog>
+<mp-toptips msg="{{error}}" type="error" show="{{error}}"></mp-toptips>

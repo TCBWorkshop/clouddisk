@@ -1,0 +1,81 @@
+{
+	"miniprogramRoot": "miniprogram/",
+	"cloudfunctionRoot": "cloudfunctions/",
+	"description": "项目配置文件。",
+	"packOptions": {
+		"ignore": []
+	},
+	"setting": {
+		"urlCheck": false,
+		"es6": true,
+		"enhance": true,
+		"postcss": true,
+		"minified": false,
+		"newFeature": true,
+		"coverView": true,
+		"autoAudits": false,
+		"checkInvalidKey": true,
+		"checkSiteMap": true,
+		"uploadWithSourceMap": true,
+		"babelSetting": {
+			"ignore": [],
+			"disablePlugins": [],
+			"outputPath": ""
+		},
+		"nodeModules": true
+	},
+	"compileType": "miniprogram",
+	"libVersion": "2.8.3",
+	"appid": "wx7124afdb64d578f5",
+	"projectname": "%E7%BD%91%E7%9B%98%E5%B0%8F%E7%A8%8B%E5%BA%8F",
+	"isGameTourist": false,
+	"simulatorType": "wechat",
+	"simulatorPluginLibVersion": {},
+	"condition": {
+		"search": {
+			"current": -1,
+			"list": []
+		},
+		"conversation": {
+			"current": -1,
+			"list": []
+		},
+		"plugin": {
+			"current": -1,
+			"list": []
+		},
+		"game": {
+			"currentL": -1,
+			"list": []
+		},
+		"miniprogram": {
+			"current": 3,
+			"list": [
+				{
+					"id": -1,
+					"name": "评论",
+					"pathName": "pages/review/review",
+					"query": ""
+				},
+				{
+					"id": 1,
+					"name": "编辑",
+					"pathName": "pages/detail/detail",
+					"query": "url=https://tcb-def7de.tcb.qcloud.la/1531733018488-1224544.png"
+				},
+				{
+					"id": 2,
+					"name": "相册详情页",
+					"pathName": "pages/photos/photos",
+					"query": "id=0"
+				},
+				{
+					"id": -1,
+					"name": "上传图片",
+					"pathName": "pages/photos/add",
+					"query": ""
+				}
+			]
+		}
+	}
+}

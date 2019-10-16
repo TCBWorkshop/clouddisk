@@ -1,0 +1,44 @@
+/* pages/photos/photos.wxss */
+.images{
+    display: flex;
+}
+
+.list-content{
+   display: flex;
+   flex-wrap: wrap;
+   padding:20rpx 15rpx 20rpx 15rpx;
+}
+
+.boxleft{
+    padding-right: 2px;
+}
+
+.boxright{
+    padding-left: 2px;
+}
+
+.list-content .pic{
+  flex: 1;
+}
+.list-content image{
+    width: 350rpx;
+    height: 350rpx;
+}
+
+.pic{
+  margin-right: 10rpx;
+}
+
+.mainbuttonview{
+    width: 100%;
+    height: 50px;
+    position: fixed;
+    bottom: 2em;
+    text-align: center;
+}
+
+.mainbutton{
+    display: inline-block;
+    width: 100px;
+    transform: rotate(44deg);
+}

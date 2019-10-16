@@ -1,0 +1,10 @@
+{
+  "usingComponents": {
+    "mp-cells": "/weui-miniprogram/cells/cells",
+    "mp-cell": "/weui-miniprogram/cell/cell",
+    "mp-uploader": "/weui-miniprogram/uploader/uploader",
+    "mp-dialog": "/weui-miniprogram/dialog/dialog",
+    "mp-toptips": "/weui-miniprogram/toptips/toptips"
+  },
+  "navigationBarTitleText": "我的相册"
+}

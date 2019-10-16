@@ -1,0 +1,18 @@
+<!--pages/photos/photos.wxml-->
+<view>
+    <view class="images clearfix">
+        <view class="list-content">
+            <block wx:for="{{photos}}" wx:for-item="photo" wx:for-index="index" wx:key="{{ index }}">
+                <view class="pic" data-index="{{index}}" bindtap="previewImage" bindlongpress="longpress">
+                    <image src="{{photo}}" class="image" mode="aspectFill"></image>
+                </view>
+            </block>
+        </view>
+    </view>
+    <view class='addbutton'>
+      <view class='add-item' bindtap="addphoto">
+        <image class='add-icon' src='/images/add.png'></image>
+      </view>      
+   </view>
+</view>
+<mp-toptips msg="{{error}}" type="error" show="{{error}}"></mp-toptips>

@@ -1,0 +1,41 @@
+{
+  "pages": [
+    "pages/folder/folder",
+    "pages/files/files",
+    "pages/files/add",
+    "pages/album/album",
+    "pages/photos/photos",
+    "pages/photos/add",
+    "pages/user/user"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "WeChat",
+    "navigationBarTextStyle": "black"
+  },
+  "tabBar": {
+    "selectedColor": "#07c160",
+    "list": [
+      {
+        "pagePath": "pages/folder/folder",
+        "iconPath": "images/file.png",
+        "selectedIconPath": "images/file-active.png",
+        "text": "文件"
+      },
+      {
+        "pagePath": "pages/album/album",
+        "iconPath": "images/photo.png",
+        "selectedIconPath": "images/photo-active.png",
+        "text": "相册"
+      },
+      {
+        "pagePath": "pages/user/user",
+        "iconPath": "images/user.png",
+        "selectedIconPath": "images/user-active.png",
+        "text": "用户"
+      }
+    ]
+  },
+  "sitemapLocation": "sitemap.json"
+}

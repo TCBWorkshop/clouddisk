@@ -1,0 +1,69 @@
+/**index.wxss**/
+page {
+  background: #F2F2F2
+}
+
+.list-content {
+  padding: 24rpx;
+  font-size: 32rpx;
+  overflow: hidden;
+}
+
+.album {
+  position: relative;
+  width: 345rpx;
+  height: 320rpx;
+  margin-bottom: 24rpx;
+  border-radius: 12rpx;
+  overflow: hidden
+}
+.album-photo {
+  width: 345rpx;
+  height: 250rpx;
+  background-color: #fff;
+}
+
+.album-photo view{
+  width:100%;
+  height:100%;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.album-left {
+  float: left;
+}
+
+.album-right {
+  float: right;
+}
+
+.album-info {
+  display: table-cell;
+  vertical-align: middle;
+  width: 345rpx;
+  height: 70rpx;
+  font-size: 0;
+  padding-left: 10rpx;
+  background-color: #ffffff;
+  border-top:1px solid #eee;
+}
+
+ .album-name{
+  float: left;
+  margin-left: 4px;
+  font-size: 16px;
+}
+
+ .album-total {
+  float: right;
+  text-align: center;
+  vertical-align: top;
+  color:#afafb0;
+  font-size: 16px;
+  padding: 0 16rpx;  
+}
+
+
+

@@ -1,0 +1,37 @@
+<view class="photo-add">
+  <form bindsubmit="formSubmit">
+    <view class="desc">
+      <textarea name="desc" placeholder="填写备注（可以不写）" />
+    </view>
+    <view class="weui-cells">
+      <view class="weui-cell">
+        <view class="weui-cell__bd">
+          <view class="weui-uploader">
+            <view class="weui-uploader__hd">
+              <view class="weui-uploader__title">点击添加文件</view>
+              <view class="weui-uploader__info">支持从微信聊天对话框内选择文件</view>
+            </view>
+            <view class="weui-uploader__bd">
+              <view class="weui-uploader__files">
+                <block wx:for="{{filesNew}}" wx:for-item="file" wx:for-index="idx" wx:key="{{idx}}">
+                  <view class="weui-uploader__file">
+                    <view class="weui-uploader__img" data-src="{{file}}"  style="background-image: url(https://tcb-1251009918.cos.ap-guangzhou.myqcloud.com/demo/file.svg)"></view>
+                    <image class="cancel" src="/images/cancel.png" bindtap="cancel" data-index="{{idx}}"></image>
+                  </view>
+                </block>
+              </view>
+              <view class="weui-uploader__input-box" wx:if="{{filesNew.length < 3}}">
+                <view class="weui-uploader__input" bindtap="chooseMessageFile"></view>
+              </view>
+            </view>
+          </view>
+        </view>
+      </view>
+    </view>
+
+    <view class="btn-box">
+      <button type="primary" form-type="submit">提交</button>
+    </view>
+  </form>
+</view>
+

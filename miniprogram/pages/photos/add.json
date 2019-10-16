@@ -1,0 +1,10 @@
+{
+  "usingComponents": {
+    "mp-cells": "/weui-miniprogram/cells/cells",
+    "mp-cell": "/weui-miniprogram/cell/cell",
+    "mp-uploader": "/weui-miniprogram/uploader/uploader",
+    "mp-dialog": "/weui-miniprogram/dialog/dialog",
+    "mp-slideview": "/weui-miniprogram/slideview/slideview"
+  },
+  "navigationBarTitleText": "添加照片"
+}
