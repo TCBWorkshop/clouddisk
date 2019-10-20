@@ -21,50 +21,11 @@ Page({
         this.getPhotos()
     },
 
-  addphoto(e) {
-    wx.navigateTo({
-      url: '/pages/photos/add?id=' + this.albumId,
-    })
-  },
-    // // 长按事件
-    // longpress (e) {
-    //     const imgIndex = e.currentTarget.dataset.index
-
-    //     // 展示操作菜单
-    //     wx.showActionSheet({
-    //         itemList: ['删除照片'],
-    //         success: res => {
-    //             if (res.tapIndex === 0) {
-    //                 this.deleteFile(imgIndex)
-    //             }
-    //         }
-    //     })
-    // },
-
-    // // 删除照片
-    // async deleteFile (idx) {
-    //     const fileId = this.data.photoIds[idx]
-
-    //     // 此处插入删除文件代码
-    // },
-
-    // async saveImageDelele (fileId) {
-    //     const photos = app.globalData.allData.albums[this.albumId].photos
-    //     const newFileIds = this.data.photoIds.filter(id => id !== fileId)
-    //     const newPhotos = photos.filter(photo => !!~newFileIds.indexOf(photo.fileID))
-
-    //     app.globalData.allData.albums[this.albumId].photos = newPhotos
-
-    //     // 写⼊入集合
-    //     db.collection('user').doc(app.globalData.id).update({
-    //         data: {
-    //             albums: _.set(app.globalData.allData.albums)
-    //         }
-    //     }).then(result => {
-    //         console.log('写⼊入成功', result)
-    //         wx.navigateBack()
-    //     })
-    // },
+    addphoto(e) {
+      wx.navigateTo({
+        url: '/pages/photos/add?id=' + this.albumId,
+      })
+    },
 
     // 获取相册中的数据
     async getPhotos () {
