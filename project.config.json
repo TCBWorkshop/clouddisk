@@ -13,6 +13,7 @@
 		"minified": false,
 		"newFeature": true,
 		"coverView": true,
+		"nodeModules": false,
 		"autoAudits": false,
 		"checkInvalidKey": true,
 		"checkSiteMap": true,
@@ -21,12 +22,11 @@
 			"ignore": [],
 			"disablePlugins": [],
 			"outputPath": ""
-		},
-		"nodeModules": true
+		}
 	},
 	"compileType": "miniprogram",
 	"libVersion": "2.8.3",
-	"appid": "wx7124afdb64d578f5",
+	"appid": "wxda99ae4531b57046",
 	"projectname": "%E7%BD%91%E7%9B%98%E5%B0%8F%E7%A8%8B%E5%BA%8F",
 	"isGameTourist": false,
 	"simulatorType": "wechat",
