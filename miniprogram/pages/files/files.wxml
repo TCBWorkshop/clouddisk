@@ -16,8 +16,8 @@
   </view>
   <view class='addbutton'>
     <view class='add-item' bindtap="addfile">
-      <image class='add-icon' src='/images/add.png'></image>
+     <image class='add-icon' src='/images/add.png'></image>
     </view>
-  </view>
+  </view> 
 </view>
 <mp-toptips msg="{{error}}" type="error" show="{{error}}"></mp-toptips>
