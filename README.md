@@ -52,7 +52,7 @@
 
 我们每个月都会有免费的十天云开发技术训练营线上学习活动，通过训练营，哪怕你是零基础的小白，也能够学会小程序的云开发，欢迎来撩~
 
-**训练营在线教程（三部分）：** [小程序基础入门](https://tencentcloudbase.github.io/handbook/tcb01.html)、[小程序与JavaScript](https://tencentcloudbase.github.io/handbook/tcb01.html)、[云开发入门实战](https://tencentcloudbase.github.io/handbook/tcb01.html)
+**训练营在线教程：**:[https://cloudbase.net/community/guides.html](https://cloudbase.net/community/guides.html)
 
 **训练营联系方式：** **云开发CloudBase小助手微信号**：Tcloudedu1
 <p align="center">
